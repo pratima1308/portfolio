@@ -14,38 +14,63 @@
     </style>
   </head>
   <body>
-    <div id="header">
+    <section id="header">
       <div class="container">
-        <nav>
-          <img src="port.png" class="logo" />
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+        <header class="nav">
+          <!-- <img src="port.png" class="logo" /> -->
+
+          <h1 class="name">Pratima</h1>
+
+          <nav>
+            <ul id="sidemenu">
+              <i id="close-menu" class="fa-solid fa-xmark fa-lg"></i>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- ****icons***** -->
+
+          <div class="icons">
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram fa-xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/">
+              <i class="fa-brands fa-linkedin fa-xl"></i>
+            </a>
+            <i
+              id="open-menu"
+              class="fa-solid fa-bars fa-lg"
+              onclick="openmenu"
+            ></i>
+          </div>
+        </header>
+
         <div class="header-text">
-          <p>Full Stack Developer</p>
-          <h1>Hi, I'm <span>Pratima</span> From India</h1>
+          <p>Hi, I'm <span>Pratima</span></p>
+          <h1>Full Stack Developer</h1>
+          <p>From India</p>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- //About Section -->
 
-    <div id="about">
+    <section id="about">
       <div class="container">
         <div class="row">
-          <div class="about-col-1"><img src="imgport.webp" /></div>
-          <div class="about-col-2">
+          <!-- <div class="about-col-1"><img src="imgport.webp" /></div> -->
+          <div class="about-col-1">
             <h1 class="sub-title">About Me</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta,
-              minus possimus consectetur dolor quisquam vitae maxime error,
-              inventore vel ullam, exercitationem laborum ipsum adipisci nisi
-              nesciunt! Laboriosam animi quo ex.
+              I am a hardworking, enthusiatic person,willing to learn and work
+              with the skills I have. Seeking a challenging opportunity where I
+              will be able to work. I will utilize all my knowledge and skills
+              and make sure that I'm able to achieve my tasks on time. I am a
+              Quick Learner, have an ability to stay calm,disciplined and
+              punctual.
             </p>
 
             <div class="tab-titles">
@@ -69,14 +94,17 @@
             </div>
             <div class="tab-contents" id="experience">
               <ul>
-                <li><span>2023 - Current</span><br />Intern at Techdev</li>
+                <li>
+                  <span>2023 - Current</span><br />
+                  Intern at <a href="https://www.stackiasm.com">Stackiasm</a>
+                </li>
                 <li>
                   <span>May 2021 - Oct 2021</span><br />C# Full Stack Developer
-                  at CMOTS
+                  at <a href="https://www.cmots.com">CMOTS</a>
                 </li>
                 <li>
                   <span>Feb 2023 - May 2023</span><br />Customer Executive at
-                  Thinksynq
+                  <a href="https://thinksynq.in/">Thinksynq</a>
                 </li>
               </ul>
             </div>
@@ -90,50 +118,52 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- //services -->
-    <div class="services">
-      <h1 class="sub-title">My Services</h1>
-      <div class="services-list">
-        <div>
-          <i class="fa-solid fa-code"></i>
-          <h2>Web Design</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            laudantium facilis voluptates repudiandae earum dolore! Ad mollitia
-            vel sapiente nulla ipsum delectus, ducimus voluptatum aperiam
-            accusamus expedita saepe amet accusantium?
-          </p>
-          <a href="#">Learn more</a>
-        </div>
-        <div>
-          <i class="fa-solid fa-crop-simple"></i>
-          <h2>UI/UX Design</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            laudantium facilis voluptates repudiandae earum dolore! Ad mollitia
-            vel sapiente nulla ipsum delectus, ducimus voluptatum aperiam
-            accusamus expedita saepe amet accusantium?
-          </p>
-          <a href="#">Learn more</a>
-        </div>
-        <div>
-          <i class="fa-brands fa-app-store"></i>
-          <h2>App Design</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-            laudantium facilis voluptates repudiandae earum dolore! Ad mollitia
-            vel sapiente nulla ipsum delectus, ducimus voluptatum aperiam
-            accusamus expedita saepe amet accusantium?
-          </p>
-          <a href="#">Learn more</a>
+    <section id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              laudantium facilis voluptates repudiandae earum dolore! Ad
+              mollitia vel sapiente nulla ipsum delectus, ducimus voluptatum
+              aperiam accusamus expedita saepe amet accusantium?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              laudantium facilis voluptates repudiandae earum dolore! Ad
+              mollitia vel sapiente nulla ipsum delectus, ducimus voluptatum
+              aperiam accusamus expedita saepe amet accusantium?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              laudantium facilis voluptates repudiandae earum dolore! Ad
+              mollitia vel sapiente nulla ipsum delectus, ducimus voluptatum
+              aperiam accusamus expedita saepe amet accusantium?
+            </p>
+            <a href="#">Learn more</a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- //portfolio -->
-    <div id="portfolio">
+    <section id="portfolio">
       <div class="container">
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
@@ -179,11 +209,11 @@
         </div>
         <a href="#" class="btn">See More</a>
       </div>
-    </div>
+    </section>
 
     <!-- contact -->
 
-    <div id="contact">
+    <section id="contact">
       <div class="container">
         <div class="row">
           <div class="contact-left">
@@ -209,11 +239,11 @@
             <a href="Pratima.pdf" download class="btn btn2">Download CV</a>
           </div>
           <div class="contact-right">
-            <form>
+            <form name="submit-to-google-sheet">
               <input type="text" name="Name" placeholder="Your Name" required />
               <input
                 type="email"
-                name="email"
+                name="Email"
                 placeholder="Your Email"
                 required
               />
@@ -224,13 +254,14 @@
               ></textarea>
               <button type="submit" class="btn btn2">Submit</button>
             </form>
+            <span id="msg"></span>
           </div>
         </div>
       </div>
       <div class="copyright">
         <p>Copyright &copy Pratima.</p>
       </div>
-    </div>
+    </section>
 
     <script>
       var tablinks = document.getElementsByClassName("tab-links");
@@ -246,6 +277,49 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
       }
+
+      const button = document.getElementById("open-menu");
+      const button1 = document.getElementById("close-menu");
+
+      if (button)
+        button.addEventListener("click", () => {
+          var sidemenu = document.getElementById("sidemenu");
+          sidemenu.style.right = "0px";
+        });
+      else button1;
+      button1.addEventListener("click", () => {
+        var sidemenu = document.getElementById("sidemenu");
+        sidemenu.style.right = "-200px";
+      });
+
+      // var sidemenu = document.getElementById("sidemenu");
+
+      // function openmenu() {
+      //   sidemenu.style.right = "0px";
+      //   console.log("abc");
+      // }
+
+      // function closemenu() {
+      //   sidemenu.style.right = "-200px";
+      // }
+
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzpKVVTAb0Gk5YjR7S_0yifDBRWSJ1UIOmbBSe4N8coF8RmMCecRUWF_jfaVCNSEA7o/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Succesfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
     </script>
   </body>
 </html>
